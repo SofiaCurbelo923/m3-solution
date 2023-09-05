@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+
+ 
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: #917024;
+    border-radius: 0;
+    border: 3px solid black;
+    height: 70px;
+  }
+  
+
+
+  
+.navbar-header #title{ /* Title */
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    color: #000000; 
+}
+
+
+.navbar-brand p span { /* Star-K */
+    vertical-align: middle;
+}
+
+.nav-header button.navbar-toggle{
+    clear:both;
+    color: black;
+
+}
+#header-nav button.navbar-toggle, #header-nav .icon-bar {
+    border: 2px solid #000000;
+}
+
+#nav-list {
+  margin-top: 15px;
+}
+#nav-list a {
+  color: #000000;
+  
+}
+#nav-list a:hover {
+  background: #cfb066;
+}
+
+
+.menu h2{
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+    margin-top: 0%;
+    
+}
+
+.container h4{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.Chicken{
+    background-color: #dab766;
+    margin-top: 50px;
+    height: 3000px;
+}
+
+.Chicken p{
+    font-size: 1.5em;
+    color: black;
+    margin: 20px;
+}
+
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.4em;
+    color:black;
+    font-weight: bold;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #collapsable-nav{
+    background-color: #917024 ;
+    
+  }
+.nav-list{
+ 
+    border: 2px solid black;
+  
+}
+ 
+}
+
+  
+ 
